@@ -1,141 +1,215 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Projeto de Extensão - Segurança Digital</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projeto de Intervenção — Cibersegurança</title>
 
-<style>
-body {
-margin: 0;
-padding: 0;
-font-family: "Segoe UI", Arial, sans-serif;
-background: linear-gradient(135deg, #0047ab, #021526);
-color: #ffffff;
-line-height: 1.7;
-}
+  <style>
+    /* ===== RESET ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      color: #222;
+      line-height: 1.6;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
 
-header {
-text-align: center;
-padding: 40px 20px;
-}
+    /* ===== LAYOUT ===== */
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
 
-h1 {
-font-size: 32px;
-margin-bottom: 10px;
-color: #ffffff;
-}
+    header {
+      background: #1a237e;
+      padding: 20px 0;
+      color: #fff;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
 
-.subtitulo {
-font-size: 18px;
-color: #dcdcdc;
-}
+    header h1 {
+      text-align: center;
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
 
-.card {
-background: #ffffff;
-color: #333;
-margin: 20px auto;
-padding: 25px;
-border-radius: 12px;
-width: 85%;
-max-width: 900px;
-box-shadow: 0px 4px 12px rgba(0,0,0,0.25);
-}
+    nav {
+      text-align: center;
+    }
+    nav a {
+      margin: 0 10px;
+      font-weight: bold;
+      color: #fff;
+    }
 
-.card h2 {
-color: #003366;
-margin-bottom: 10px;
-}
+    .card {
+      background: #fff;
+      padding: 20px;
+      margin-bottom: 18px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    }
 
-.card h3 {
-color: #0055aa;
-margin-top: 20px;
-}
+    .card h2 {
+      margin-bottom: 10px;
+      font-size: 22px;
+      color: #1a237e;
+    }
 
-footer {
-margin-top: 40px;
-text-align: center;
-padding: 20px;
-color: #dcdcdc;
-}
-</style>
+    /* ===== VÍDEOS RESPONSIVOS ===== */
+    .video-wrapper {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%;
+      height: 0;
+      margin-top: 12px;
+    }
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      border: 0;
+    }
 
+    .video-topic {
+      margin-bottom: 32px;
+    }
+    .video-topic h3 {
+      margin-bottom: 6px;
+      color: #303f9f;
+    }
+    .video-topic p {
+      margin-bottom: 6px;
+      color: #444;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      text-align: center;
+      padding: 15px 0;
+      color: #fff;
+      background: #1a237e;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 
 <body>
 
 <header>
-<h1>Projeto de Extensão – Segurança Digital para Empresas</h1>
-<p class="subtitulo">Boas práticas e orientações essenciais para pequenos negócios</p>
+  <h1>Projeto de Intervenção — Cibersegurança</h1>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#intervencao">Intervenção</a>
+    <a href="#videos">Vídeos</a>
+    <a href="#contato">Contato</a>
+  </nav>
 </header>
 
-<section class="card">
-<h2>Objetivo Geral</h2>
-<p>Promover a conscientização e ensinar práticas fundamentais de cibersegurança para colaboradores da Cooperativa de Laticínios Mista do Carpina, contribuindo para uma cultura organizacional mais segura e preparada contra ataques digitais.</p>
-</section>
+<main class="container">
 
-<section class="card">
-<h2>Objetivos Específicos</h2>
-<ul>
-<li>Explicar conceitos essenciais de segurança digital de forma simples e objetiva.</li>
-<li>Ensinar a identificar ameaças como phishing, engenharia social e links maliciosos.</li>
-<li>Orientar sobre criação de senhas fortes e uso de autenticação de dois fatores.</li>
-<li>Demonstrar uso básico de ferramentas de proteção como antivírus e firewall.</li>
-<li>Estimular hábitos seguros no uso de e-mails, redes sociais e dispositivos pessoais.</li>
-</ul>
-</section>
+  <section id="sobre" class="card">
+    <h2>Sobre o Tema</h2>
+    <p>Este projeto aborda temas essenciais de cibersegurança para usuários leigos, com foco em práticas simples, diretas e eficazes.</p>
+  </section>
 
-<section class="card">
-<h2>Dicas Essenciais de Cibersegurança para Pequenas Empresas</h2>
+  <section id="intervencao" class="card">
+    <h2>Plano de Intervenção</h2>
+    <p>O objetivo é ensinar boas práticas de segurança digital usando conteúdo rápido, vídeos curtos, exemplos práticos e checklists.</p>
+  </section>
 
-<h3>1. Use Senhas Fortes e Diferentes</h3>
-<p>Senhas devem ter no mínimo 10 caracteres, misturar letras maiúsculas, minúsculas, números e símbolos.
-Nunca reutilize senhas entre contas. Pequenas empresas devem incentivar o uso de gerenciadores de senha para evitar anotações em papel, WhatsApp ou planilhas.</p>
+  <section id="videos" class="card">
+    <h2>Vídeos Curtos do Projeto</h2>
 
-<h3>2. Ative a Autenticação em Duplo Fator (2FA)</h3>
-<p>A 2FA cria uma segunda barreira de proteção. Mesmo que a senha seja descoberta, o criminoso não consegue acessar a conta. Usar apps como Google Authenticator aumenta muito a segurança.</p>
+    <!-- 1 - Senhas fortes -->
+    <div class="video-topic">
+      <h3>1. Use senhas fortes e diferentes</h3>
+      <p>Como criar senhas que realmente protegem suas contas.</p>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/TPv9pfd4LS0" allowfullscreen></iframe>
+      </div>
+    </div>
 
-<h3>3. Como Identificar Phishing</h3>
-<p>Phishing é um dos golpes mais comuns. O funcionário deve verificar sempre:
-• Endereço do remetente
-• Links suspeitos
-• Pedidos urgentes ou fora do normal
-• Erros de ortografia
-Treinamentos periódicos reduzem drasticamente a chance de alguém cair em golpes.</p>
+    <!-- 2 - 2FA -->
+    <div class="video-topic">
+      <h3>2. Ative autenticação em dois fatores (2FA)</h3>
+      <p>Uma camada extra de segurança essencial.</p>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/3huEV-7VfbY" allowfullscreen></iframe>
+      </div>
+    </div>
 
-<h3>4. Mantenha Sistemas Atualizados</h3>
-<p>Atualizações corrigem falhas críticas exploradas por hackers. Aplicativos, computadores, celulares e roteadores devem estar sempre atualizados para evitar invasões.</p>
+    <!-- 3 - Phishing -->
+    <div class="video-topic">
+      <h3>3. Como identificar phishing</h3>
+      <p>Aprenda a reconhecer golpes antes de clicar.</p>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/X75k0o4Aulw" allowfullscreen></iframe>
+      </div>
+    </div>
 
-<h3>5. Faça Backup dos Dados</h3>
-<p>A regra 3-2-1 garante segurança:
-• 3 cópias dos dados
-• 2 em dispositivos diferentes
-• 1 em nuvem ou local externo
-Isso protege contra ransomware, falhas de hardware e acidentes.</p>
+    <!-- 4 - Atualizações -->
+    <div class="video-topic">
+      <h3>4. Mantenha sistemas atualizados</h3>
+      <p>Atualizações são essenciais para evitar ataques.</p>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/n7WM8CbJ_XE" allowfullscreen></iframe>
+      </div>
+    </div>
 
-<h3>6. Utilize Antivírus e Firewall</h3>
-<p>Mesmo pequenos negócios precisam dessas ferramentas. Firewalls bloqueiam acessos suspeitos e antivírus detectam arquivos perigosos. Ambos precisam estar atualizados.</p>
+    <!-- 5 - Backup -->
+    <div class="video-topic">
+      <h3>5. Faça backup de dados</h3>
+      <p>Proteja seus arquivos de perdas e ataques.</p>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/7AEHZiPPf_A" allowfullscreen></iframe>
+      </div>
+    </div>
 
-<h3>7. Treine Seus Funcionários</h3>
-<p>90% dos ataques envolvem erro humano. Treinamentos rápidos, simulações de phishing e orientação contínua reduzem riscos e fortalecem a empresa.</p>
-</section>
+    <!-- 6 - Antivírus -->
+    <div class="video-topic">
+      <h3>6. Utilize antivírus</h3>
+      <p>Seu primeiro escudo contra ameaças digitais.</p>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/ge2I8LMA-BI" allowfullscreen></iframe>
+      </div>
+    </div>
 
-<section class="card">
-<h2>Materiais Utilizados</h2>
-<ul>
-<li>Slides, vídeos e material visual de apoio</li>
-<li>QR Code para acesso sustentável sem uso de papel</li>
-<li>Computadores e celulares dos colaboradores</li>
-</ul>
-</section>
+    <!-- 7 - Firewall -->
+    <div class="video-topic">
+      <h3>7. Use firewall</h3>
+      <p>Controla e bloqueia acessos não autorizados.</p>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/3w4-P503AmY" allowfullscreen></iframe>
+      </div>
+    </div>
 
-<section class="card">
-<h2>Resultados Esperados</h2>
-<p>Ao final do projeto, os colaboradores estarão mais conscientes dos riscos digitais e saberão aplicar as boas práticas de segurança aprendidas, protegendo melhor a cooperativa e suas informações.</p>
-</section>
+  </section>
+
+  <section id="contato" class="card">
+    <h2>Contato</h2>
+    <p>Aluno: <strong>Marcos Mota</strong></p>
+    <p>Curso: Ciência da Computação — Foco em Cibersegurança</p>
+  </section>
+
+</main>
 
 <footer>
-<p>Projeto acadêmico – Extensão II – Segurança Digital • Desenvolvido por Marcos Mota</p>
+  © 2025 — Projeto de Intervenção em Cibersegurança — Marcos Mota
 </footer>
 
 </body>
